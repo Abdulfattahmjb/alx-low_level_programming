@@ -1,9 +1,10 @@
+#include <stdio.h>
 int main(void)
 {
-	puts("Size of a char: 1 byte(s)");
-	puts("Size of an int: 4 byte(s)");
-	puts("Size of a long int: 4 byte(s)");
-	puts("Size of a long long int: 8 byte(s)");
-	puts("Size of a float: 4 byte(s)");
+	printf("size of a char: %i byte(s)\n", sizeof(char));
+	printf("size of an int: %i byte(s)\n", sizeof(int));
+	printf("size of a long int: %i byte(s)\n", sizeof(long int));
+	printf("size of a long long int: %i byte(s)\n", sizeof(long long int));
+	printf("size of a float: %i byte(s)\n", sizeof(float));
 	return (0);
 }
